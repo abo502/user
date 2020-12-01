@@ -2,11 +2,11 @@ package DBUtil;
 
 import java.sql.*;
 
-public class DbUtil {
+public class Db {
     private static String DBDriver = "com.mysql.cj.jdbc.Driver";
     private static String User = "root";
     private static String Password = "root";
-    private static String URL = "jdbc:mysql://localhost:3306/test?characterEncoding=UTF-8&serverTimezone=UTC";
+    private static String URL = "jdbc:mysql://localhost:3306/goods?serverTimezone=UTC";
     static Connection connection = null;
     static PreparedStatement preparedStatement=null;
     static Statement statement=null;
